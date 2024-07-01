@@ -1,0 +1,1803 @@
+{
+	"info": {
+		"_postman_id": "c5e6d75e-8282-4e74-83e8-7a738b7b23c0",
+		"name": "SpringBoot-cource",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27521844",
+		"_collection_link": "https://solar-astronaut-341044.postman.co/workspace/62652e4a-13d2-4371-9fd4-61c0aeb9c975/collection/27521844-c5e6d75e-8282-4e74-83e8-7a738b7b23c0?action=share&source=collection_link&creator=27521844"
+	},
+	"item": [
+		{
+			"name": "MVC",
+			"item": [
+				{
+					"name": "about",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/about",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"about"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hello",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/hello",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create-user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/create-user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"create-user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\":\"Peter\",\r\n    \"empI\":2332132,\r\n    \"phone\":313532,\r\n    \"dept\":\"232332\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/creates",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"creates"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student/createsList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n    \"Name\":\"Peters\",\r\n    \"empI\":23321326,\r\n    \"phone\":31355432,\r\n    \"dept\":\"232332sd\"\r\n},\r\n{\r\n    \"Name\":\"Peter\",\r\n    \"empI\":2332132,\r\n    \"phone\":313532,\r\n    \"dept\":\"232332\"\r\n}\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/createsList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"createsList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student/createsList2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n    \"Name\":\"Peters\",\r\n    \"empI\":23321326,\r\n    \"phone\":31355432,\r\n    \"dept\":\"232332sd\"\r\n},\r\n{\r\n    \"Name\":\"Peter\",\r\n    \"empI\":2332132,\r\n    \"phone\":313532,\r\n    \"dept\":\"232332\"\r\n}\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/createsList2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"createsList2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "student/createsList3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n    \"Name\":\"Peters\",\r\n    \"empI\":23321326,\r\n    \"phone\":31355432,\r\n    \"dept\":\"232332sd\"\r\n},\r\n{\r\n    \"Name\":\"Peter\",\r\n    \"empI\":2332132,\r\n    \"phone\":313532,\r\n    \"dept\":\"232332\"\r\n}\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/createsList3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"createsList3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProduct",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n    \"Name\":\"Peters\",\r\n    \"empI\":23321326,\r\n    \"phone\":31355432,\r\n    \"dept\":\"232332sd\"\r\n},\r\n{\r\n    \"Name\":\"Peter\",\r\n    \"empI\":2332132,\r\n    \"phone\":313532,\r\n    \"dept\":\"232332\"\r\n}\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/getProduct?productName=phone&productId=1312&productRating=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"getProduct"
+							],
+							"query": [
+								{
+									"key": "productName",
+									"value": "phone"
+								},
+								{
+									"key": "productId",
+									"value": "1312"
+								},
+								{
+									"key": "productRating",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "checkProduct",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n    \"Name\":\"Peters\",\r\n    \"empI\":23321326,\r\n    \"phone\":31355432,\r\n    \"dept\":\"232332sd\"\r\n},\r\n{\r\n    \"Name\":\"Peter\",\r\n    \"empI\":2332132,\r\n    \"phone\":313532,\r\n    \"dept\":\"232332\"\r\n}\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/checkProduct/1234/phone/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"checkProduct",
+								"1234",
+								"phone",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create-feedback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/create-feedback",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"create-feedback"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TodoApp",
+			"item": [
+				{
+					"name": "todoscreate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn \",\r\n    \"content\":\"For interview\",\r\n    \"status\":\"Not Done\",\r\n    \"toDoDate\": \"10/10/2022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/todos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"todos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "singlefile",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/ronak/Desktop/auto sweep.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/file/single",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"file",
+								"single"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "multiple",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"/C:/Users/ronak/Desktop/6NBLER-mandate (4).pdf",
+										"/C:/Users/ronak/Desktop/8 sem.pdf",
+										"/C:/Users/ronak/Desktop/37 Lecture & Code.pdf",
+										"/C:/Users/ronak/Desktop/aa.pdf",
+										"/C:/Users/ronak/Desktop/aaa.pdf",
+										"/C:/Users/ronak/Desktop/abc.pdf",
+										"/C:/Users/ronak/Desktop/adhar card.pdf"
+									]
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/file/multiple",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"file",
+								"multiple"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTodos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn \",\r\n    \"content\":\"For interview\",\r\n    \"status\":\"Not Done\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/todos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"todos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTodo{}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn1 \",\r\n    \"content\":\"For interview2\",\r\n    \"status\":\"Not Done2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/todos/1903961",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"todos",
+								"1903961"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTodo{}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn1 \",\r\n    \"content\":\"For interview2\",\r\n    \"status\":\"Not Done2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/todos/2462924",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"todos",
+								"2462924"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTodo{} del",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn1 \",\r\n    \"content\":\"For interview2\",\r\n    \"status\":\"Not Done2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/todos/3332650",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"todos",
+								"3332650"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "exception",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn1 \",\r\n    \"content\":\"For interview2\",\r\n    \"status\":\"Not Done2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/todos/exception",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"todos",
+								"exception"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "serve-image",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Mave to learn1 \",\r\n    \"content\":\"For interview2\",\r\n    \"status\":\"Not Done2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/file/serve-image",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"file",
+								"serve-image"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ElectronicStore",
+			"item": [
+				{
+					"name": "users",
+					"item": [
+						{
+							"name": "create-User",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"a2\",\r\n    \"email\":\"\",\r\n    \"password\":\"\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "create-User-validate",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"paaaaasd\",\r\n    \"email\":\"panchalsda@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"ronakp.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "upload-image-for-userId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "userImage",
+											"type": "file",
+											"src": "/C:/Users/ronak/Desktop/Ronak Documents/diploma/2 sem diploma.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/image/101025bb-4d6e-435a-a8c6-4edce1ead246",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"image",
+										"101025bb-4d6e-435a-a8c6-4edce1ead246"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-image-for-userId",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"paaaa\",\r\n    \"email\":\"panchal@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/image/101025bb-4d6e-435a-a8c6-4edce1ead246",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"image",
+										"101025bb-4d6e-435a-a8c6-4edce1ead246"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update-User-by-Id",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"panchal2\",\r\n    \"email\":\"panchal2@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal2.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/a4032888-4b22-4d01-ac7a-f5a0859c026b",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"a4032888-4b22-4d01-ac7a-f5a0859c026b"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-All-Users",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"panchal\",\r\n    \"email\":\"panchal1@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users?sortBy=name&sortDir=desc&pageNumber=1&pageSize=",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": "name"
+										},
+										{
+											"key": "sortDir",
+											"value": "desc"
+										},
+										{
+											"key": "pageNumber",
+											"value": "1"
+										},
+										{
+											"key": "pageSize",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-Single-User-by-Id",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"panchal\",\r\n    \"email\":\"panchal1@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/101025bb-4d6e-435a-a8c6-4edce1ead246",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"101025bb-4d6e-435a-a8c6-4edce1ead246"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-Single-User-by-Email",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"panchal\",\r\n    \"email\":\"panchal1@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/email/panchal1@gmail.com",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"email",
+										"panchal1@gmail.com"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search-User-By-Name-Keyword",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"panchal\",\r\n    \"email\":\"panchal1@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/search/g",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"search",
+										"g"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete-user-by-ID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"panchal\",\r\n    \"email\":\"panchal1@gmail.com\",\r\n    \"password\":\"abcd\",\r\n    \"gender\":\"male\",\r\n    \"about\":\"I am java developer\",\r\n    \"imageName\":\"panchal.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/users/634f5ef3-e59a-4e0c-b756-1f80baf1885e",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"users",
+										"634f5ef3-e59a-4e0c-b756-1f80baf1885e"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "categories",
+					"item": [
+						{
+							"name": "create-categories",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Phones\",\r\n    \"description\":\"Top Phones\",\r\n    \"coverImage\":\"top5 laptops.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "upload-categories-image",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "categoryImage",
+											"type": "file",
+											"src": "/C:/Users/ronak/Desktop/Ronak Documents/diploma/1 sem diploma.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/image/16ec2f65-2973-4a20-97d1-199acace5730",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"image",
+										"16ec2f65-2973-4a20-97d1-199acace5730"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update-categories",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Products1234\",\r\n    \"description\":\"This category contains product realted to Top 5 Products1234\",\r\n    \"coverImage\":\"Top5Products1234.png\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/16ec2f65-2973-4a20-97d1-199acace5730",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"16ec2f65-2973-4a20-97d1-199acace5730"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-all-categories",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories?pageNumber=2&pageSize=2&sortDir=desc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories"
+									],
+									"query": [
+										{
+											"key": "pageNumber",
+											"value": "2"
+										},
+										{
+											"key": "pageSize",
+											"value": "2"
+										},
+										{
+											"key": "sortDir",
+											"value": "desc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-categories-by-Id",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/e4333203-0ab0-4bdb-938d-69014cf9e625",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"e4333203-0ab0-4bdb-938d-69014cf9e625"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-category-image-by-Id",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/e4333203-0ab0-4bdb-938d-69014cf9e625",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"e4333203-0ab0-4bdb-938d-69014cf9e625"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "search-categories-Title",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories?title=Phone",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "Phone"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete-categories-by-Id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/e4333203-0ab0-4bdb-938d-69014cf9e625",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"e4333203-0ab0-4bdb-938d-69014cf9e625"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "products",
+					"item": [
+						{
+							"name": "create-product",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Samsung laptop  ultra\",\r\n    \"description\" : \"Saumsung laptop of 2024\",\r\n    \"price\": 110000,\r\n    \"discountedPrice\": 95000,\r\n    \"quantity\" : 100,\r\n    \"live\" : true,\r\n    \"stock\" : true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "upload-image-products-byId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "productImage",
+											"type": "file",
+											"src": "/C:/Users/ronak/Desktop/Ronak Documents/diploma/1 sem diploma.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/image/c4408cee-534f-4621-adb3-108d8936fb75",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"image",
+										"c4408cee-534f-4621-adb3-108d8936fb75"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "create-products -in-categories",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Samsung laptop\",\r\n    \"description\" : \"Saumsung laptop of 2025\",\r\n    \"price\": 110000,\r\n    \"discountedPrice\": 95000,\r\n    \"quantity\" : 100,\r\n    \"live\" : true,\r\n    \"stock\" : true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/e375629b-97bc-44a8-901e-a021152007bf/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"e375629b-97bc-44a8-901e-a021152007bf",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update-product-byId",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Samsung s22 ultra2\",\r\n    \"description\" : \"Saumsung phone of 2022\",\r\n    \"price\": 120000,\r\n    \"discountedPrice\": 100000,\r\n    \"quantity\" : 200,\r\n    \"live\" : false,\r\n    \"stock\" : true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/1fb5c4bb-e91b-4765-852d-88ac88c13c22",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"1fb5c4bb-e91b-4765-852d-88ac88c13c22"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update-product-category",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"Samsung s22 ultra2\",\r\n    \"description\" : \"Saumsung phone of 2022\",\r\n    \"price\": 120000,\r\n    \"discountedPrice\": 100000,\r\n    \"quantity\" : 200,\r\n    \"live\" : false,\r\n    \"stock\" : true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/e375629b-97bc-44a8-901e-a021152007bf/products/28c70be3-52fa-49fc-b54b-c5b8bd3cb710",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"e375629b-97bc-44a8-901e-a021152007bf",
+										"products",
+										"28c70be3-52fa-49fc-b54b-c5b8bd3cb710"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update-product-byId Copy",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/61379970-a8c8-46f8-984a-f39a821b936e",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"61379970-a8c8-46f8-984a-f39a821b936e"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-all-products",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/products?sortBy=quantity&sortDir=desc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": "quantity"
+										},
+										{
+											"key": "sortDir",
+											"value": "desc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "search-product-byTitle",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/search/23",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"search",
+										"23"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": "quantity",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-all-live-products",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/live",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"live"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-product-byId",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/e5875d98-8b82-4fe3-9632-6c51de61bb67",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"e5875d98-8b82-4fe3-9632-6c51de61bb67"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-allproducts-of-category",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/categories/a2ad4743-5c99-4a3d-9d6d-aabe20dd6f5d/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"categories",
+										"a2ad4743-5c99-4a3d-9d6d-aabe20dd6f5d",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-product-image-byId",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/products/image/61379970-a8c8-46f8-984a-f39a821b936e",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"products",
+										"image",
+										"61379970-a8c8-46f8-984a-f39a821b936e"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Cart",
+					"item": [
+						{
+							"name": "add-Item-in-Cart",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productId\":\"510611aa-6560-445e-a2de-15cfc6c84de3\",\r\n    \"quantity\":11\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/carts/84d88b93-135b-4f60-b810-e7364f2599bb",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"carts",
+										"84d88b93-135b-4f60-b810-e7364f2599bb"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "remove-all-Items-from-Cart",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:9090/carts/84d88b93-135b-4f60-b810-e7364f2599bb",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"carts",
+										"84d88b93-135b-4f60-b810-e7364f2599bb"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "remove-Item-from-Cart-by-itemid",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:9090/carts/84d88b93-135b-4f60-b810-e7364f2599bb/items/3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"carts",
+										"84d88b93-135b-4f60-b810-e7364f2599bb",
+										"items",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get -cart-items",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:9090/carts/84d88b93-135b-4f60-b810-e7364f2599bb",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"carts",
+										"84d88b93-135b-4f60-b810-e7364f2599bb"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Orders",
+					"item": [
+						{
+							"name": "create-new-Orders",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cartId\":\"7a3856ec-1882-49cf-b2ea-3e794158c448\",\r\n    \"userId\": \"4c549fe9-2eda-4a9a-949a-a69f607020bc\",\r\n    \"orderStatus\":\"PENDING\",\r\n    \"paymentStatus\":\"NOTPAID\",\r\n    \"billingAddress\":\"mumbai\",\r\n    \"billingPhone\":\"9137427147\",\r\n    \"billingName\":\"ronak\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/orders",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update-order-by-OrderId",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"cartId\":\"7a3856ec-1882-49cf-b2ea-3e794158c448\",\r\n    \"userId\": \"4c549fe9-2eda-4a9a-949a-a69f607020bc\",\r\n    \"orderStatus\":\"DELIVERED\",\r\n    \"paymentStatus\":\"PAID\",\r\n    \"billingAddress\":\"mumbai\",\r\n    \"billingPhone\":\"9137427147\",\r\n    \"billingName\":\"ronak\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/orders/d33d2bd8-eea5-46c9-871c-4009e0166e8c",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"orders",
+										"d33d2bd8-eea5-46c9-871c-4009e0166e8c"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-order-for-userId",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/orders/user/4c549fe9-2eda-4a9a-949a-a69f607020bc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"orders",
+										"user",
+										"4c549fe9-2eda-4a9a-949a-a69f607020bc"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete-order-using-orderID",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:9090/orders/9fd779be-1e01-4e34-8d52-764ddbcac8f5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"orders",
+										"9fd779be-1e01-4e34-8d52-764ddbcac8f5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "test/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/test",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"test"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="another.world, config.xml.beans, org.example.withoutboot" />
+
+    <bean class="config.xml.beans.Student" id="student1">
+        <property name="name" value="durgesh" />
+        <property name="age" value="24" />
+        <property name="address" ref="address" />
+<!--        <property name="friends">-->
+<!--            <list>-->
+<!--                <value></value>-->
+<!--                <value></value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--        <property name="sortedNameSet">-->
+<!--            <set>-->
+<!--                <value></value>-->
+<!--                <value></value>-->
+<!--                <value></value>-->
+<!--                <value></value>-->
+<!--            </set>-->
+<!--        </property>-->
+
+        <property name="map">
+            <map>
+                <entry key="java" value="4500" />
+                <entry key="c" value="1600" />
+                <entry key="cpp" value="2000" />
+                <entry key="python" value="4000" />
+            </map>
+        </property>
+
+    </bean>
+
+    <bean id="address" class="config.xml.beans.Address">
+        <property name="city" value="LKO" />
+        <property name="street" value="131/235" />
+    </bean>
+
+</beans>
